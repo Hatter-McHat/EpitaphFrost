@@ -1,0 +1,49 @@
+{
+  "variantId": "ef_graveyard_Armorbreaker",
+  "hullId": "ef_graveyard",
+  "displayName": "Armorbreaker",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "ef_hellrail_large",
+        "WS0002": "ef_hellrail_large",
+        "WS0003": "ef_galv_medium",
+        "WS0004": "ef_galv_medium",
+        "WS0005": "ef_gravculverin_small",
+        "WS0006": "ef_gravculverin_small",
+        "WS0007": "ef_galv_pd",
+        "WS0009": "ef_gravculverin_small"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "ef_galv_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

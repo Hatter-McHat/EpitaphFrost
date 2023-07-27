@@ -1,0 +1,112 @@
+{
+  "hullName": "Crypt",
+  "hullId": "ef_crypt",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/EpitaphFrost/ships/ef_crypt.png",
+  "style": "VESTIGE",
+  "height": 126,
+  "width": 114,
+  "center": [57, 63],
+  "collisionRadius": 73,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 68.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ef_vestige_architecture",
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [43, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-1, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -47.5,
+      "locations": [8, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 47.5,
+      "locations": [8, 24]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -32.5,
+      "locations": [29, -35]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 32.5,
+      "locations": [29, 35]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51.5, -30.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "VESTIGE"
+    },
+    {
+      "location": [-51.5, 30.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "VESTIGE"
+    },
+    {
+      "location": [-59.5, -0],
+      "length": 74,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "VESTIGE"
+    }
+  ],
+  "bounds": [
+    -56.5, 21,
+    -20, 56.5,
+    5, 55.5,
+    26, 43.5,
+    62.5, 16.5,
+    62.5, -16.5,
+    26, -43.5,
+    5, -55.5,
+    -20, -56.5,
+    -56.5, -21
+  ]
+}

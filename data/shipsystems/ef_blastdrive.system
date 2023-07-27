@@ -1,0 +1,35 @@
+{
+	
+	"id":"ef_blastdrive",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE_TOGGLE",
+	
+	"statsScript":"org.hatter.epitaphFrost.shipsystems.BlastDrive",
+	
+	#"engineGlowColor":[255,175,125,255],
+	#"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":1.5,
+	"engineGlowWidthMult":3,
+	"engineGlowGlowMult":1.5,
+	
+	"flameoutOnImpactChance":0.5,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"system_burn_drive_activate",
+	"loopSound":"system_burn_drive_loop",
+	"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":300,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":300,
+	}
+}
+
+
+
+

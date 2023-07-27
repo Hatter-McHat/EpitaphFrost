@@ -1,0 +1,24 @@
+{
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			#"ef_quest":0.1,
+		},
+	},
+	"knownShips":{
+		"hulls":[
+			"ef_quest",
+		],
+	},
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			#"ef_quest",
+		],
+	},
+	"variantOverrides":{
+		"ef_quest_Standard":10,
+	},
+},	

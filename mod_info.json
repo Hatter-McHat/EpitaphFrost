@@ -1,0 +1,25 @@
+{
+	"id":"epitaphfrost",
+	"name":"Epitaph Frost",
+    "utility": "false",
+	"author":"Hatter",
+	"version":{ "major": 0, "minor": 3, "patch": 0 },
+	"description":"Content Expansion",
+	"gameVersion":"0.96a-RC10",
+	"jars": ["jars/EpitaphFrost.jar"],
+	"dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib"
+        },
+		{
+			"id": "MagicLib",
+            "name": "MagicLib"
+		}
+	]
+}
+//Thanks to DarkRevenant for code snippets.
+//Tomatopaste and ruddythegreat for troubleshooting,
+//SirHartley for armor regen code.
+//On-hit effect is copied from BadDragn's Apex.
+//Aero for helping standardize

@@ -1,0 +1,18 @@
+{
+	"id":"ef_hellrail_small_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":150.0,
+	"width":15,
+	"fadeTime":0.3,
+	"fringeColor":[255,100,0,255],
+	"coreColor":[255,235,200,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/EpitaphFrost/missiles/shell_hellrail_large.png"	
+}

@@ -1,0 +1,14 @@
+{
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	"knownShips":{
+		"hulls":[
+			"ef_reinforcer",
+		],
+	},
+},	

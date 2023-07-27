@@ -1,0 +1,51 @@
+{
+  "id": "ef_galv_pd",
+  "specClass": "projectile",
+  "projectileSpecId": "ef_galv_pd_shot",
+  "type": "BALLISTIC",
+  "mountTypeOverride":"HYBRID",
+  "size": "SMALL",
+  "turretSprite": "graphics/EpitaphFrost/weapons/ef_galv_pd_turret.png",
+  "hardpointSprite": "graphics/EpitaphFrost/weapons/ef_galv_pd_hardpoint.png",
+  "renderAboveAllWeapons": 0,
+  "turretOffsets": [
+    10,
+    2,
+    10,
+    -2
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    14.5,
+    2,
+    14.5,
+    -2
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "requiresFullCharge": false,
+  "muzzleFlashSpec": {
+    "length": 23,
+    "spread": 5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 12,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+   "particleColor": [
+      50,
+      255,
+      50,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "light_machinegun_fire"
+}

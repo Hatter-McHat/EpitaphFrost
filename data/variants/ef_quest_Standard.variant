@@ -1,0 +1,65 @@
+{
+  "variantId": "ef_quest_Standard",
+  "hullId": "ef_quest",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 31,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "ballistic_rangefinder",
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "irautolance",
+        "WS0007": "hil",
+        "WS0008": "mjolnir"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyac",
+        "WS0002": "heavyac",
+        "WS0009": "heavyac",
+        "WS0012": "gravitonbeam",
+        "WS0013": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdburst",
+        "WS0004": "pdburst",
+        "WS0010": "pdburst",
+        "WS0011": "pdburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "gazerpod",
+        "WS0015": "gazerpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "hydra",
+        "WS0017": "hydra"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

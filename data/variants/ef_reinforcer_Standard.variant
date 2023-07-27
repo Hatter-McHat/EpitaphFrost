@@ -1,0 +1,34 @@
+{
+  "variantId": "ef_reinforcer_Standard",
+  "hullId": "ef_reinforcer",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "heavyarmor",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mark9",
+        "WS0002": "mark9",
+        "WS0003": "devastator",
+        "WS0004": "devastator",
+        "WS0005": "hurricane",
+        "WS0006": "hurricane",
+        "WS0007": "devastator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "talon_wing"
+  ]
+}

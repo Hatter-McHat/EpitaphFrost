@@ -1,0 +1,19 @@
+{
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			"ef_reinforcer":15,
+		},
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+		"ef_reinforcer_Overdriven":10,
+	},
+	"knownShips":{
+		"hulls":[
+			"ef_reinforcer",
+		],
+	},
+},	

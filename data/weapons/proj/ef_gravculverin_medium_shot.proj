@@ -1,0 +1,19 @@
+{
+	"id":"ef_gravculverin_medium_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect":"org.hatter.epitaphFrost.weapons.proj.GravCulverin_OnHit",
+	"length":90.0,
+	"width":5.5,
+	"fadeTime":0.3,
+	"fringeColor":[100,100,255,255],
+	"coreColor":[235,235,255,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/EpitaphFrost/missiles/shell_gravculverin_medium.png"	
+}

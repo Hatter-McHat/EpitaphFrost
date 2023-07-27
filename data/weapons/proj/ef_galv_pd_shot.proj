@@ -1,0 +1,19 @@
+{
+	"id":"ef_galv_pd_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":30.0,
+	"width":3,
+	"fadeTime":0.3,
+	"fringeColor":[50,200,50,255],
+	"coreColor":[205,255,50,255],
+	"textureScrollSpeed":64.0,
+	"hitGlowRadius":1,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":false,
+	"passThroughFighters":false,
+	"passThroughFightersOnlyWhenDestroyed":false,
+	"bulletSprite":"graphics/EpitaphFrost/missiles/shell_galv_small.png"		
+}

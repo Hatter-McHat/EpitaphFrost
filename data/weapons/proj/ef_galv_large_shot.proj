@@ -1,0 +1,19 @@
+{
+	"id":"ef_galv_large_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":160.0,
+	"width":12,
+	"fadeTime":0.3,
+	"fringeColor":[50,200,50,255],
+	"coreColor":[205,255,50,255],
+	"hitGlowRadius":15,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":false,
+	"passThroughFightersOnlyWhenDestroyed":false,
+	"bulletSprite":"graphics/EpitaphFrost/missiles/shell_gravculverin_large.png"	
+}

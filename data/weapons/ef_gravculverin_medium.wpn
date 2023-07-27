@@ -1,0 +1,33 @@
+{
+	"id":"ef_gravculverin_medium",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":650,
+	"turretSprite":"graphics/EpitaphFrost/weapons/ef_gravculverin_medium_turret_base.png",
+	"turretGlowSprite": "graphics/EpitaphFrost/weapons/ef_gravculverin_medium_turret_glow.png",
+	"turretGunSprite":"graphics/EpitaphFrost/weapons/ef_gravculverin_medium_turret_barrels.png",	
+	"hardpointSprite":"graphics/EpitaphFrost/weapons/ef_gravculverin_medium_hardpoint_base.png",
+ 	"hardpointGlowSprite": "graphics/EpitaphFrost/weapons/ef_gravculverin_medium_hardpoint_glow.png",
+	"hardpointGunSprite":"graphics/EpitaphFrost/weapons/ef_gravculverin_medium_hardpoint_barrels.png",	
+	"visualRecoil":10.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[20, -5, 22, 0, 20, 5],
+	"turretAngleOffsets":[0, 0, 0],
+	"hardpointOffsets":[25, -5, 27, 0, 25, 5],
+	"hardpointAngleOffsets":[0, 0, 0],
+ 	"glowColor":[200,255,255,255],
+	"specialWeaponGlowWidth":15,
+	"specialWeaponGlowHeight":40,
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":45.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":36,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":32.0,
+					   "particleDuration":0.16,
+					   "particleCount":45,
+					   "particleColor":[200, 225, 225, 175]},
+	"projectileSpecId":"ef_gravculverin_medium_shot",  # projectile that will be fired
+	"fireSoundTwo":"autocannon_fire",	
+}

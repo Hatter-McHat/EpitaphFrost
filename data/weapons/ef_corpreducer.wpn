@@ -1,0 +1,52 @@
+{
+  "id": "ef_corpreducer",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "org.hatter.epitaphFrost.weapons.proj.CorpReducer_OnHit",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/EpitaphFrost/weapons/ef_corpreducer_turret.png",
+  "turretGlowSprite": "graphics/EpitaphFrost/weapons/ef_corpreducer_turret_glow.png",
+  "hardpointSprite": "graphics/EpitaphFrost/weapons/ef_corpreducer_hardpoint.png",
+  "hardpointGlowSprite": "graphics/EpitaphFrost/weapons/ef_corpreducer_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "turretOffsets": [
+    -2, 0,
+    -2, 1.5,
+    -2,-1.5,
+    -2, 0.75,
+    -2,-0.75
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    4, 0,
+    4, 1.5,
+    4, -1.5,
+    4, 0.75,
+    4, -0.75],
+  "hardpointAngleOffsets": [0,0,0],
+  "fringeColor": [75,0,205,120],
+  "coreColor": [0,230,255,220],
+  "glowColor": [75,0,205,255],
+  "hitGlowRadius": 0,
+  "coreWidthMult":0.35,
+  "darkCore":false,
+  "skipIdleFrameIfZeroBurstDelay":true,
+  "width": 40,
+  "textureType": LASER,
+  "textureScrollSpeed": 292,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "tachyon_lance_fire"
+}

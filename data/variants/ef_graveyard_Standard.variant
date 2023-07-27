@@ -1,0 +1,48 @@
+{
+    "displayName": "Standard",
+	"goalVariant": true,
+    "fluxCapacitors": 19,
+    "fluxVents": 30,
+    "hullId": "ef_graveyard",
+    "hullMods": [
+        "dedicated_targeting_core",
+        "autorepair",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "ef_graveyard_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "ef_gravculverin_large",
+                "WS0002": "ef_gravculverin_large"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "ef_galv_small"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ef_hellrail_medium",
+                "WS0004": "ef_hellrail_medium"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "ef_galv_pd",
+                "WS0006": "ef_galv_pd",
+                "WS0007": "ef_galv_pd",
+                "WS0008": "ef_galv_pd"
+            }
+        }
+    ]
+}

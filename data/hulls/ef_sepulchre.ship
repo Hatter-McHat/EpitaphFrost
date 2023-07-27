@@ -1,0 +1,128 @@
+{
+  "hullName": "Sepulchre",
+  "hullId": "ef_sepulchre",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/EpitaphFrost/ships/ef_sepulchre.png",
+  "style": "VESTIGE",
+  "height": 60,
+  "width": 68,
+  "center": [34, 30],
+  "collisionRadius": 52.5,
+  "shieldCenter": [3.5, -0],
+  "shieldRadius": 45.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ef_vestige_architecture",
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [22, 15]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [22, -15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -28,
+      "locations": [-7, -14]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 28,
+      "locations": [-7, 14]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23, -10],
+      "length": 14.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "VESTIGE"
+    },
+    {
+      "location": [-23, 10],
+      "length": 14.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "VESTIGE"
+    },
+    {
+      "location": [-20, -31],
+      "length": 14.372585,
+      "width": 8.585754,
+      "angle": -143.5,
+      "contrailSize": 8.585754,
+      "style": "VESTIGE"
+    },
+    {
+      "location": [-20, 31],
+      "length": 14.372585,
+      "width": 8.585754,
+      "angle": 143.5,
+      "contrailSize": 8.585754,
+      "style": "VESTIGE"
+    },
+    {
+      "location": [-28.5, -19],
+      "length": 26.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "VESTIGE"
+    },
+    {
+      "location": [-28.5, 19],
+      "length": 26.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "VESTIGE"
+    },
+    {
+      "location": [-23, -0],
+      "length": 24,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "VESTIGE"
+    }
+  ],
+  "bounds": [
+    -23.5, 9.5,
+    -27.5, 23.5,
+    -20, 30.5,
+    -1.5, 27,
+    10, 32,
+    24.5, 23,
+    24.5, -23,
+    10, -32,
+    -1.5, -27,
+    -20, -30.5,
+    -27.5, -23.5,
+    -23.5, -9.5
+  ]
+}
