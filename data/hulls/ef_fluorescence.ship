@@ -52,15 +52,6 @@
       "locations": [8, -36]
     },
     {
-      "id": "WS0005",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "TURRET",
-      "arc": 240,
-      "angle": 180,
-      "locations": [-81, -0]
-    },
-    {
       "id": "WS0006",
       "size": "LARGE",
       "type": "ENERGY",
@@ -68,6 +59,24 @@
       "arc": 10,
       "angle": 0,
       "locations": [24, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -125,
+      "locations": [-45, -50]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 125,
+      "locations": [-45, 50]
     }
   ],
   "engineSlots": [
