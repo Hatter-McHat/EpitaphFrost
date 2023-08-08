@@ -1,0 +1,32 @@
+{
+	"specClass":"beam",
+	"id":"ef_solar_lance",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"beamFireOnlyOnFullCharge":true,
+ 	"beamEffect": "org.hatter.epitaphFrost.weapons.proj.BurnLance_OnHit",
+ 	 "turretSprite": "graphics/EpitaphFrost/weapons/ef_solar_lance_turret.png",
+ 	 "turretGlowSprite": "graphics/EpitaphFrost/weapons/ef_solar_lance_turret_glow.png",
+	  "hardpointSprite": "graphics/EpitaphFrost/weapons/ef_solar_lance_hardpoint.png",
+	  "hardpointGlowSprite": "graphics/EpitaphFrost/weapons/ef_solar_lance_hardpoint_glow.png",
+	"turretOffsets":[29, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[40, 0],
+	"hardpointAngleOffsets":[0],
+
+
+
+	"glowColor":[255,85,110,255],	
+	"fringeColor":[255,85,110,225],
+	"coreColor":[255,205,235,255],
+
+
+	"darkCore":false,
+	"width":115.0,
+	"coreWidthMult":0.45,
+	"textureType": LASER,
+	"textureScrollSpeed":70.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+	"fireSoundTwo":"tachyon_lance_fire",
+}
