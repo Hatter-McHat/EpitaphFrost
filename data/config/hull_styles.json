@@ -45,6 +45,48 @@
 		"dHullOverlayMedium":"graphics/damage/dmod_overlay_lowtech_medium.png",
 		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_lowtech_heavy.png",
 	},
+	"VERGLAS":{
+		"hyperspaceJitterColor":[140,255,255,255],
+		"baseCampaignExplosionColor":[255,125,25,255],
+		"baseCombatExplosionColor":[140,255,255,255], # smooth flash
+		"combatExplosionNonFlashColorOverride":[255,165,100,255], # the more billowy explosion
+		"fighterRepairFlickerColor":[255,125,25,255],
+		"fighterChipIconColor":[255,200,150,255],
+		"weaponDisabledExplosionColor":[255,125,25,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[140,255,255,135],
+		"fluxVentCoreColor":[140,255,255,255],
+		"fluxVentFringeColor":[0,0,255,255],
+		"fluxVentTextureSheet":"graphics/fx/nebula_colorless.png", # optional, this is the default value
+		"fluxVentRadialTexture":"graphics/fx/radial_fx.png", # optional, this is the default value
+		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
+		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		#"colorShiftCovers":true,
+		"coversColorShiftAmount":0,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		
+		#"colorShiftCovers":false,
+		"slotCoverSmallTurret":"graphics/weapons/covers/cover_omega_turret_small.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/covers/cover_omega_hardpoint_small.png",
+		"slotCoverMediumTurret":"graphics/weapons/covers/cover_omega_turret_medium.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/covers/cover_omega_hardpoint_medium.png",
+		"slotCoverLargeTurret":"graphics/weapons/covers/cover_omega_turret_large.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/covers/cover_omega_hardpoint_large.png",
+
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_lowtech_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_lowtech_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_lowtech_heavy.png",
+	},
 }
 
 

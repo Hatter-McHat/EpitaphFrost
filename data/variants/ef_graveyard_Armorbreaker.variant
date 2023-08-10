@@ -3,13 +3,14 @@
   "hullId": "ef_graveyard",
   "displayName": "Armorbreaker",
   "goalVariant": true,
-  "fluxCapacitors": 22,
+  "fluxCapacitors": 20,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "dedicated_targeting_core",
-    "autorepair"
+    "autorepair",
+    "blast_doors"
   ],
   "weaponGroups": [
     {

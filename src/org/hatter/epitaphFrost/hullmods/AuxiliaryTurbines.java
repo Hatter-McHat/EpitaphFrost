@@ -11,7 +11,7 @@ public class AuxiliaryTurbines extends BaseHullMod {
     public static final int SPEED_BOOST  = 50;
     public static final float ACCEL_BOOST  = 1.5f;
     public static final float FLUX_LEVEL  = 0.01f;
-    public static final float ENGINE_SIZE  = 0.33f;
+    public static final float ENGINE_SIZE  = 0.5f;
     //public static final float FLUX_PENALTY  = 0.5f;
     /*
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {

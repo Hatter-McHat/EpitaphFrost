@@ -1,13 +1,16 @@
 { 
 	"designTypeColors":{
-		"Vestige":[72,255,78,255]
+		"Vestige":[72,255,78,255],
+		"Verglas":[140,255,255,255],
 	},
+	
 	"graphics":{
 		"fx":{
 			"ef_trail_bright":"graphics/EpitaphFrost/trails/base_trail_bright.png",
 		},
 		"blueprint_packages":{
-			"vestige_package":"graphics/EpitaphFrost/icons/misc/vestige_package.png"
+			"ef_vestige_package":"graphics/EpitaphFrost/icons/misc/ef_vestige_package.png",
+			"ef_verglas_package":"graphics/EpitaphFrost/icons/misc/ef_verglas_package.png"
 		},
 	}
 }

@@ -1,6 +1,6 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
 Quest,ef_quest,Battlecruiser,Midline,maneuveringjets,24,15000,1400,19000,1300,330,,50,18,9,6,3,2800,OMNI,,120,0.4,1.4,,,350,450,200,200,10,20,8,275000,3,15,600,0.25,40,40,,"rare_bp, merc",,0.5,2,4,,500
-Fluorescent,ef_fluorescence,Light Cruiser,Remnant,displacer,13,7000,700,7000,500,120,,90,"75
+Fluorescent,ef_fluorescence,Light Cruiser,Remnant,displacer,13,7000,700,7000,500,125,,90,"75
 ",55,24,28,700,OMNI,,270,0.4,0.6,,,0,0,80,90,3,30,9,85000,5,15,480,0.25,15,15,"UNBOARDABLE, HIDE_IN_CODEX","remnant, auto_rec, no_autofit",,0.5,2,3,,501
 Reinforcer,ef_reinforcer,Heavy Cruiser,Low Tech,canister_flak,18,16000,1600,12000,600,240,1,25,20,8,14,8,2450,OMNI,,150,0.4,1,,,400,600,300,150,10,15,7,140000,4,12,540,0.25,30,30,,"lowtech_bp, merc, ind",,0.5,2,3,,511
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -9,3 +9,5 @@ Graveyard,ef_graveyard,Cruiser,Vestige,maneuveringjets,15,18000,1500,12000,600,2
 Crypt,ef_crypt,Destroyer ,Vestige,microburn,10,8000,900,7000,300,110,,90,90,60,40,100,500,PHASE,ef_phaseshell,,,,,,0,0,50,40,2,20,9,60000,5,20,480,0.25,12,12,"UNBOARDABLE, HIDE_IN_CODEX","auto_rec, no_sell, no_dealer, vestige, no_autofit, remnant",,0.5,2,4,,507
 Sepulchre,ef_sepulchre,Frigate,Vestige,temporalshell,9,4500,700,6000,250,65,,110,150,80,80,140,250,PHASE,ef_phaseshell,,,,,,0,0,50,40,2,20,10,60000,5,20,400,0.25,10,10,"UNBOARDABLE, HIDE_IN_CODEX","auto_rec, no_sell, no_dealer, vestige, no_autofit, remnant",,0.5,2,4,,513
 Tombstone,ef_tombstone,Frigate,Vestige,ammofeed,3,2000,450,3500,150,50,,170,130,100,60,120,100,PHASE,ef_phaseshell,,,,,,0,0,20,20,1,20,10,10000,5,20,300,0.25,3,3,"UNBOARDABLE, HIDE_IN_CODEX","auto_rec, no_sell, no_dealer, vestige, no_autofit, remnant",,0.5,2,4,,509
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Névé,ef_lamina,Frigate,Verglas,maneuveringjets,3,1500,150,1200,80,25,,220,360,180,180,240,65,OMNI,,360,0.5,1,,,1,5,5,10,1,10,11,60000,8,40,180,0.25,5,5,,,,0.5,2,4,,515

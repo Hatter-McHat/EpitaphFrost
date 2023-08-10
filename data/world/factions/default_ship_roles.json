@@ -4,11 +4,12 @@
 	"combatSmallForSmallFleet":{
 	},
 	"combatSmall":{
-		"ef_tombstone_Standard":0.3,
-		"ef_tombstone_Defence":0.3,
+
 		
 	},
 	"combatMedium":{
+		"ef_tombstone_Standard":0.3,
+		"ef_tombstone_Defence":0.3,
 		"ef_crypt_Standard":0.5,
 		"ef_crypt_Defence":0.5,
 		"ef_sepulchre_Attack":0.5,

@@ -118,7 +118,7 @@ public class VestigeArchitecture extends BaseHullMod {
         if (index == 3) return "" + (int) (LOW_FLUX_REGENERATION_PER_SEC_PERCENT)*(100) + "%";
         if (index == 4) return "" + (int) (BALLISTIC_RANGE_REDUCTION)*(-1) + " su";
         if (index == 5) return "" + (int) (BALLISTIC_MIN_RANGE) + " su";
-        if (index == 6) return "" + (int) (1-RECOIL_MAX_REDUCTION)*(100) + "%";
+        if (index == 6) return "" + Math.round((1-RECOIL_MAX_REDUCTION)*(100)) + "%";
         //if (index == 7) return "" + (int) (1-BASE_DISSIPITATION_MULT)*(100) + "%";
         //if (index == 8) return "" + (int) (BASE_DISSIPITATION_MULT)*(1+DISSIPITATION_PER_PERCENT_FLUX_MULT*100)*(100) + "%";
         //if (index == 9) return "" + (int) (1-VENT_RATE_MULT)*(100) + "%";
