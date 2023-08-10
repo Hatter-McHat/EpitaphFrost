@@ -9,3 +9,5 @@ Graveyard,ef_graveyard,Cruiser,Vestige,maneuveringjets,15,18000,1500,12000,600,2
 Crypt,ef_crypt,Destroyer ,Vestige,microburn,10,8000,900,7000,300,110,,90,90,60,40,100,500,PHASE,ef_phaseshell,,,,,,0,0,50,40,2,20,9,60000,5,20,480,0.25,12,12,"UNBOARDABLE, HIDE_IN_CODEX","auto_rec, no_sell, no_dealer, vestige, no_autofit, remnant",,0.5,2,4,,507
 Sepulchre,ef_sepulchre,Frigate,Vestige,temporalshell,9,4500,700,6000,250,65,,110,150,80,80,140,250,PHASE,ef_phaseshell,,,,,,0,0,50,40,2,20,10,60000,5,20,400,0.25,10,10,"UNBOARDABLE, HIDE_IN_CODEX","auto_rec, no_sell, no_dealer, vestige, no_autofit, remnant",,0.5,2,4,,513
 Tombstone,ef_tombstone,Frigate,Vestige,ammofeed,3,2000,450,3500,150,50,,170,130,100,60,120,100,PHASE,ef_phaseshell,,,,,,0,0,20,20,1,20,10,10000,5,20,300,0.25,3,3,"UNBOARDABLE, HIDE_IN_CODEX","auto_rec, no_sell, no_dealer, vestige, no_autofit, remnant",,0.5,2,4,,509
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Névé,ef_lamina,Frigate,Verglas,maneuveringjets,3,1500,150,1200,80,25,,220,360,180,180,240,65,OMNI,,360,0.5,1,,,1,5,5,10,1,10,11,60000,8,40,180,0.25,5,5,,,,0.5,2,4,,515

@@ -3,25 +3,20 @@
   "hullId": "ef_fluorescence",
   "displayName": "Attack",
   "goalVariant": true,
-  "fluxCapacitors": 24,
+  "fluxCapacitors": 29,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "targetingunit",
-    "frontemitter",
-    "with the exception of more specialized variants.\",\"Increases weapon range"
+    "frontemitter"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "taclaser",
-        "WS0002": "taclaser",
-        "WS0005": "lrpdlaser",
-        "WS0006": "plasma",
-        "WS0007": "lrpdlaser"
+        "WS0006": "plasma"
       }
     },
     {
@@ -35,7 +30,18 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0005": "lrpdlaser",
+        "WS0007": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser",
+        "WS0002": "taclaser"
+      }
     }
   ],
   "modules": [],

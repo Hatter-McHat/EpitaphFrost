@@ -27,12 +27,12 @@ public class OverdrivenBallisticFeeder extends BaseHullMod {
 	//public static final float DEFAULT_DECAY_FACTOR = 6f;
 	
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-		stats.getDynamic().getMod(Stats.LARGE_BALLISTIC_MOD).modifyFlat(id, LARGE_PENALTY_BALLISTIC);
 		stats.getDynamic().getMod(Stats.MEDIUM_BALLISTIC_MOD).modifyFlat(id, MEDIUM_PENALTY_BALLISTIC);
 		stats.getDynamic().getMod(Stats.SMALL_BALLISTIC_MOD).modifyFlat(id,  SMALL_PENALTY_BALLISTIC);
 		stats.getBallisticRoFMult().modifyMult(id,ROF_BOOST);
 		stats.getBallisticAmmoRegenMult().modifyMult(id,ROF_BOOST);
 		if(!isSMod(stats)) {
+			stats.getDynamic().getMod(Stats.LARGE_BALLISTIC_MOD).modifyFlat(id, LARGE_PENALTY_BALLISTIC);
 			stats.getRecoilPerShotMult().modifyMult(id, RECOIL_PENALTY);
 			stats.getRecoilDecayMult().modifyMult(id, 1 / RECOIL_PENALTY);
 			stats.getMaxRecoilMult().modifyMult(id, RECOIL_MAX_MULT);

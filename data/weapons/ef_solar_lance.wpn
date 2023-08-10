@@ -9,22 +9,30 @@
  	 "turretGlowSprite": "graphics/EpitaphFrost/weapons/ef_solar_lance_turret_glow.png",
 	  "hardpointSprite": "graphics/EpitaphFrost/weapons/ef_solar_lance_hardpoint.png",
 	  "hardpointGlowSprite": "graphics/EpitaphFrost/weapons/ef_solar_lance_hardpoint_glow.png",
-	"turretOffsets":[29, 0],
+	"turretOffsets":[-1, 0],
 	"turretAngleOffsets":[0],
-	"hardpointOffsets":[40, 0],
+	"hardpointOffsets":[10, 0],
 	"hardpointAngleOffsets":[0],
 
 
 
-	"glowColor":[255,85,110,255],	
-	"fringeColor":[255,85,110,225],
-	"coreColor":[255,205,235,255],
-
+	"glowColor":[255,0,0,255],
+	"fringeColor":[255,0,0,255],
+	"coreColor":[255,200,235,255],
+	#"fringeColor":[180,0,0,180],
+	#"coreColor":[255,0,0,255],
+	#"coreColor":[255,205,235,255],
+	#"glowColor":[255,155,255,255],
+	
 
 	"darkCore":false,
-	"width":115.0,
-	"coreWidthMult":0.45,
-	"textureType": LASER,
+	"width":80.0,
+	"coreWidthMult":0.4,
+	"textureType":LASER,
+	#[
+   	# "graphics/EpitaphFrost/trails/ef_beamfringe.png",
+    	# "graphics/EpitaphFrost/trails/ef_beamcore.png"
+ 	# ],
 	"textureScrollSpeed":70.0,
 	"pixelsPerTexel":5.0,
 	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],

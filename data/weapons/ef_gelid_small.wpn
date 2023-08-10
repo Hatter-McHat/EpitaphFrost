@@ -1,0 +1,20 @@
+{
+	"id":"ef_gelid_small",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"graphics/EpitaphFrost/weapons/ef_gelid_small_turret.png",
+	"turretGlowSprite":"graphics/EpitaphFrost/weapons/ef_gelid_small_turret_glow.png",
+	"hardpointSprite":"graphics/EpitaphFrost/weapons/ef_gelid_small_hardpoint.png",
+	"hardpointGlowSprite":"graphics/EpitaphFrost/weapons/ef_gelid_small_hardpoint_glow.png",
+	"glowColor":[100,100,175,255],
+	"turretOffsets":[8, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[8, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"NONE",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"ef_gelid_shot",  # projectile that will be fired
+	"fireSoundTwo":"shock_repeater_fire",
+}

@@ -7,8 +7,10 @@ import org.lwjgl.util.vector.Vector2f;
 
 public class BurnLance_OnHit implements BeamEffectPlugin {
 //tachyon onhit copy
-    private IntervalUtil fireInterval = new IntervalUtil(0.05f, 0.05f);
+
     private boolean wasZero = true;
+    private int arcs = 10;
+    private IntervalUtil fireInterval = new IntervalUtil(0.025f * arcs, 0.075f * arcs);
 
     public void advance(float amount, CombatEngineAPI engine, BeamAPI beam) {
         CombatEntityAPI target = beam.getDamageTarget();
@@ -31,18 +33,22 @@ public class BurnLance_OnHit implements BeamEffectPlugin {
                     Vector2f point = beam.getRayEndPrevFrame();
                     //float emp = beam.getDamage().getFluxComponent() * 0.3f;
                     float emp = 0f;
-                    float dam = beam.getDamage().getDamage() * 0.1f;
-                    engine.spawnEmpArcPierceShields(
-                            beam.getSource(), point, beam.getDamageTarget(), beam.getDamageTarget(),
-                            DamageType.FRAGMENTATION,
-                            dam, // damage
-                            emp, // emp
-                            100000f, // max range
-                            "ef_burnlance_impact",
-                            beam.getWidth() + 5f,
-                            beam.getFringeColor(),
-                            beam.getCoreColor()
-                    );
+                    float dam = beam.getDamage().getDamage() * 0.2f;
+                    //thanks RuddyTheGreat
+                    for (int i = 0; i < arcs; i++) {
+
+                        engine.spawnEmpArcPierceShields(
+                                beam.getSource(), point, beam.getDamageTarget(), beam.getDamageTarget(),
+                                DamageType.FRAGMENTATION,
+                                dam, // damage
+                                emp, // emp
+                                100000f, // max range
+                                "ef_burnlance_impact",
+                                beam.getWidth() + 0f,
+                                beam.getFringeColor(),
+                                beam.getCoreColor()
+                        );
+                    }
                 }
             }
         }

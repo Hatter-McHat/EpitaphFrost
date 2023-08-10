@@ -1,2 +1,3 @@
 name,id,tags,rarity,base price,stack size,cargo space,icon,sound id,sound id drop,plugin,plugin params,desc,order
-Vestige Package,vestige_package,package_bp,0.1,500,1000,1,graphics/icons/cargo/blueprint_lowtech.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,vestige,A blueprint chip containing weapons and ships used by the Vestige,1
+Vestige Package,ef_vestige_package,package_bp,0.1,500,1000,1,graphics/icons/cargo/blueprint_lowtech.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,vestige,A blueprint chip containing weapons and ships used by the Vestige,1
+Verglas Package,ef_verglas_package,package_bp,0.1,500,1000,1,graphics/icons/cargo/blueprint_lowtech.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,verglas,Designs. ,1
