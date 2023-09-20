@@ -4,25 +4,26 @@
   "hullSize": "FRIGATE",
   "spriteName": "graphics/EpitaphFrost/ships/ef_lamina.png",
   "style": "VERGLAS",
-  "height": 89,
-  "width": 88,
-  "center": [44, 44.5],
-  "collisionRadius": 55.5,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 53.5,
+  "height": 85,
+  "width": 68,
+  "center": [34, 43],
+  "collisionRadius": 58,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 57,
   "viewOffset": 0,
   "builtInMods": [
-    "ef_verglas_architecture"
+    "ef_verglas_architecture",
+    "automated"
   ],
   "weaponSlots": [
     {
       "id": "WS0001",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "SYNERGY",
       "mount": "HARDPOINT",
       "arc": 10,
-      "angle": -0,
-      "locations": [21.5, 14]
+      "angle": 0,
+      "locations": [29, -0]
     },
     {
       "id": "WS0002",
@@ -31,53 +32,83 @@
       "mount": "HARDPOINT",
       "arc": 10,
       "angle": 0,
-      "locations": [21.5, -14]
+      "locations": [-3, -19]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-3, 19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [0, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-24, 33.5],
-      "length": 36.921101,
-      "width": 21.548296,
-      "angle": 156.5,
-      "contrailSize": 21.548296,
-      "style": "VERGLAS"
-    },
-    {
-      "location": [-24, -33.5],
-      "length": 36.921101,
-      "width": 21.548296,
-      "angle": -156.5,
-      "contrailSize": 21.548296,
-      "style": "VERGLAS"
-    },
-    {
-      "location": [-37.5, 22.5],
+      "location": [-31, -0],
       "length": 41.157982,
       "width": 17.580717,
-      "angle": 175,
+      "angle": 180,
       "contrailSize": 17.580717,
       "style": "VERGLAS"
     },
     {
-      "location": [-37.5, -22.5],
-      "length": 41.157982,
-      "width": 17.580717,
-      "angle": -175,
-      "contrailSize": 17.580717,
+      "location": [-34, -25],
+      "length": 24.775253,
+      "width": 10.283349,
+      "angle": -139.5,
+      "contrailSize": 10.283349,
+      "style": "VERGLAS"
+    },
+    {
+      "location": [-34, 25],
+      "length": 24.775253,
+      "width": 10.283349,
+      "angle": 139.5,
+      "contrailSize": 10.283349,
+      "style": "VERGLAS"
+    },
+    {
+      "location": [-40.5, -17],
+      "length": 17.075314,
+      "width": 5.170557,
+      "angle": -166.5,
+      "contrailSize": 5.170557,
+      "style": "VERGLAS"
+    },
+    {
+      "location": [-40.5, 17],
+      "length": 17.075314,
+      "width": 5.170557,
+      "angle": 166.5,
+      "contrailSize": 5.170557,
       "style": "VERGLAS"
     }
   ],
   "bounds": [
-    -35, 6,
-    -41.5, 17,
-    -27.5, 37,
-    9, 43,
-    40.5, 21.5,
-    40.5, -21.5,
-    9, -43,
-    -27.5, -37,
-    -41.5, -17,
-    -35, -6
+    -30.5, 4.5,
+    -43.5, 12,
+    -31.5, 31.5,
+    -18.5, 21,
+    -7.5, 25,
+    6.5, 17.5,
+    40.5, 11.5,
+    40.5, -11.5,
+    6.5, -17.5,
+    -7.5, -25,
+    -18.5, -21,
+    -31.5, -31.5,
+    -43.5, -12,
+    -30.5, -4.5
   ]
 }

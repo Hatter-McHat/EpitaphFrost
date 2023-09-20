@@ -26,7 +26,7 @@ public class CorpReducer_OnHit implements BeamEffectPlugin {
             if (fireInterval.intervalElapsed()) {
                 ShipAPI ship = (ShipAPI) target;
                 boolean hitShield = target.getShield() != null && target.getShield().isWithinArc(beam.getTo());
-                float pierceChance = ((ShipAPI)target).getHardFluxLevel() + 0.1f;
+                float pierceChance = 0.5f * ((ShipAPI)target).getHardFluxLevel() - 0.15f;
                 pierceChance *= ship.getMutableStats().getDynamic().getValue(Stats.SHIELD_PIERCED_MULT);
 
                 boolean piercedShield = hitShield && (float) Math.random() < pierceChance;

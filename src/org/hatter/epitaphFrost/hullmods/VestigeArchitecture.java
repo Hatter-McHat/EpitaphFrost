@@ -11,6 +11,8 @@ import com.fs.starfarer.api.combat.ArmorGridAPI;
 import org.lazywizard.lazylib.combat.DefenseUtils;
 import com.fs.starfarer.api.combat.listeners.AdvanceableListener;
 
+import java.awt.*;
+
 
 public class VestigeArchitecture extends BaseHullMod {
 
@@ -36,6 +38,17 @@ public class VestigeArchitecture extends BaseHullMod {
     }
     public void advanceInCombat(ShipAPI ship, float amount) {
         ship.getMutableStats().getFluxDissipation().modifyMult("Vestige Dissipitation",1+DISSIPITATION_PER_PERCENT_FLUX_MULT*ship.getFluxLevel());
+        //jitter
+        ship.setJitterUnder(this, Color.GREEN,0,0,0,0);
+        if (!(ship.getHitpoints()<0.01*ship.getMaxHitpoints()) && DefenseUtils.hasArmorDamage(ship)){
+                // low intensity
+                ship.setJitterUnder(this, Color.GREEN,0.7f,3,0,5);
+                //high intensity
+                if (ship.getFluxLevel() < 0.01){
+                    ship.setJitterUnder(this, Color.GREEN,1f,4,0,7);
+            }
+        }
+
     }
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
         super.applyEffectsAfterShipCreation(ship, id);
@@ -114,8 +127,8 @@ public class VestigeArchitecture extends BaseHullMod {
     public String getDescriptionParam(int index, HullSize hullSize) {
         if (index == 0) return "" + (int) (BASE_REGENERATION_PER_SEC_PERCENT)*(100) + "%";
         if (index == 1) return "" + (int) (HULL_ARMOR_CONVERSION_FACTOR )*(100) + "%";
-        if (index == 2) return "" + (int) (KINETIC_ARMOR_DAMAGE_MULT-1)*(100) + "%";
-        if (index == 3) return "" + (int) (LOW_FLUX_REGENERATION_PER_SEC_PERCENT)*(100) + "%";
+        if (index == 2) return "" + (int) ((KINETIC_ARMOR_DAMAGE_MULT-1)*(100)) + "%";
+        if (index == 3) return "" + (int) ((LOW_FLUX_REGENERATION_PER_SEC_PERCENT)*(100)) + "%";
         if (index == 4) return "" + (int) (BALLISTIC_RANGE_REDUCTION)*(-1) + " su";
         if (index == 5) return "" + (int) (BALLISTIC_MIN_RANGE) + " su";
         if (index == 6) return "" + Math.round((1-RECOIL_MAX_REDUCTION)*(100)) + "%";

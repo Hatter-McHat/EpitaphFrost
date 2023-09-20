@@ -12,6 +12,9 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
+import java.awt.*;
+import java.util.EnumSet;
+
 
 public class VerglasArchitecture extends BaseHullMod {
 
@@ -19,7 +22,7 @@ public class VerglasArchitecture extends BaseHullMod {
 	public static final float ROF_FACTOR  = 3f;
 	public static final float FLUX_MULT = 0.5f;
 	public static final float HE_SHIELD_MULT = 2f;
-	public static final float SHIELD_REDUCT_FLAT = 250f;
+	public static final float SHIELD_REDUCT_FLAT = 150f;
 	public static final float SHIELD_REDUCT  = 0.9f;
 	public static final float ARMOR_DAMAGE_CUTOFF  = 250f;
 	public static final float ARMOR_REDUCT = 0.9f;
@@ -49,6 +52,10 @@ public class VerglasArchitecture extends BaseHullMod {
 		stats.getShieldTurnRateMult().modifyMult(id,SHIELD_SPEED);
 		stats.getShieldUnfoldRateMult().modifyMult(id,SHIELD_SPEED);
 
+
+	}
+	public void advanceInCombat(ShipAPI ship, float amount) {
+		ship.setJitterUnder(this,Color.WHITE,0.9f,4,0,6f);
 
 	}
 	public void applyEffectsAfterShipCreation(ShipAPI ship, String id)
@@ -87,10 +94,10 @@ public class VerglasArchitecture extends BaseHullMod {
 	}
 	public String getDescriptionParam(int index, HullSize hullSize) {
 		if (index == 0) return "" + (int) ((ROF_FACTOR - 1) * (100)) + "%";
-		if (index == 1) return "" + SHIELD_REDUCT_FLAT;
+		if (index == 1) return "" + (int) SHIELD_REDUCT_FLAT;
 		if (index == 2) return "" + (int) ((SHIELD_REDUCT ) * (100)) + "%";
 		if (index == 3) return "" + (int) ((HE_SHIELD_MULT-1) * (100)) + "%";
-		if (index == 4) return "" + ARMOR_DAMAGE_CUTOFF;
+		if (index == 4) return "" + (int) ARMOR_DAMAGE_CUTOFF;
 		if (index == 5) return "" + (int) ((ARMOR_REDUCT ) * (100)) + "%";
 		if (index == 6) return "" + (int) ((1-FLUX_MULT) * (100)) + "%";
 		return null;

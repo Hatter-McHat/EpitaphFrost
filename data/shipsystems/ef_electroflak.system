@@ -1,0 +1,10 @@
+{
+	"id":"ef_electroflak",
+	"type":"WEAPON",
+	"aiType":"CANISTER_FLAK",
+	
+	"weaponDataId":"ef_electroflak",
+	"outOfUsesSound":"gun_out_of_ammo",
+}
+
+

@@ -77,7 +77,7 @@ public class EnergyRangefinder extends BaseHullMod {
 			return 1f;
 		}
 		public float getWeaponBaseRangeFlatMod(ShipAPI ship, WeaponAPI weapon) {
-			if (weapon.getSlot() == null || weapon.getType() != WeaponType.ENERGY) {
+			if (weapon.getSlot() == null || weapon.getType() != WeaponType.ENERGY || weapon.getSpec().getMountType() != WeaponType.ENERGY) {
 				return 0f;
 			}
 			if (weapon.hasAIHint(AIHints.PD)) {
@@ -148,7 +148,8 @@ public class EnergyRangefinder extends BaseHullMod {
 		tooltip.addSectionHeading("Interactions with other modifiers", Alignment.MID, opad);
 		tooltip.addPara("Since the base range is increased, this modifier"
 				+ " - unlike most other flat modifiers in the game - "
-				+ "is affected by percentage modifiers from other hullmods and skills.", opad);
+				+ "is affected by percentage modifiers from other hullmods and skills."
+				+ "Only effects energy weapons with energy-type mounting- No hybrid energy weapons", opad);
 	}
 
 	@Override
