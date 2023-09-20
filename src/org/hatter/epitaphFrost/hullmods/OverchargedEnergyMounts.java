@@ -9,8 +9,11 @@ import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.characters.MutableCharacterStatsAPI;
+
+import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.EnumSet;
 
 import com.fs.starfarer.api.loading.WeaponSpecAPI;
 public class OverchargedEnergyMounts extends BaseHullMod {
@@ -22,6 +25,7 @@ public class OverchargedEnergyMounts extends BaseHullMod {
     public static final float FLUX_COST = 1.65f;
     public static final float SMOD_FLUX_COST = 1.5f;
     public static final int SMOD_SMALL_PENALTY = -1;
+
 
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
         stats.getDynamic().getMod(Stats.LARGE_ENERGY_MOD).modifyFlat(id, LARGE_PENALTY);
@@ -35,6 +39,9 @@ public class OverchargedEnergyMounts extends BaseHullMod {
             stats.getEnergyWeaponFluxCostMod().modifyMult(id, FLUX_COST);
             stats.getDynamic().getMod(Stats.SMALL_ENERGY_MOD).modifyFlat(id, SMALL_PENALTY);
         }
+    }
+    public void advanceInCombat(ShipAPI ship, float amount) {
+        ship.setWeaponGlow(0.1f, Color.MAGENTA,EnumSet.of(WeaponAPI.WeaponType.ENERGY));
     }
     /*
     //following code is largely from DarkRevenant's PDAC.
@@ -123,10 +130,12 @@ public class OverchargedEnergyMounts extends BaseHullMod {
         if (index == 0) return "" + (int) (DAMAGE_BOOST * 100 - 100) + "%";
         if (index == 1) return "" + SMALL_PENALTY + "/" + MEDIUM_PENALTY + "/" + LARGE_PENALTY + "";
         if (index == 2) return "" + (int) (FLUX_COST * 100 - 100) + "%";
-        if (index == 3) return "" + (int) (SMOD_FLUX_COST * 100 - 100) + "%";
         return null;
     }
-
+    public String getSModDescriptionParam(int index, HullSize hullSize) {
+        if (index == 0) return "" + (int) (SMOD_FLUX_COST * 100 - 100) + "%";
+        return null;
+    }
     @Override
     public boolean affectsOPCosts() {
         return true;

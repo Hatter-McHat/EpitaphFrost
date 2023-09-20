@@ -1,0 +1,271 @@
+{
+  "hullName": "Borealis",
+  "hullId": "ef_borealis",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/EpitaphFrost/ships/ef_borealis.png",
+  "style": "HIGH_TECH",
+  "height": 228,
+  "width": 156,
+  "center": [78, 114],
+  "collisionRadius": 152.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 140.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "high_maintenance",
+    "ef_energy_rangefinder"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -36,
+      "locations": [77, -36]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 36,
+      "locations": [77, 36]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [107, -28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [107, 28]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [94, -49]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [94, 49]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -35,
+      "locations": [26, -24]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 35,
+      "locations": [26, 24]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [72, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -115.5,
+      "locations": [-48, -39]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 115.5,
+      "locations": [-48, 39]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-102.5, -14.5],
+      "length": 28,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-102.5, 14.5],
+      "length": 28,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-82.5, -39.5],
+      "length": 30.255066,
+      "width": 8.690447,
+      "angle": -173,
+      "contrailSize": 8.690447,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-82.5, 39.5],
+      "length": 30.255066,
+      "width": 8.690447,
+      "angle": 173,
+      "contrailSize": 8.690447,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-79.5, -43.5],
+      "length": 33.068237,
+      "width": 11.134025,
+      "angle": -169.5,
+      "contrailSize": 11.134025,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-79.5, 43.5],
+      "length": 33.068237,
+      "width": 11.134025,
+      "angle": 169.5,
+      "contrailSize": 11.134025,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-79, -47],
+      "length": 27.644289,
+      "width": 9.390052,
+      "angle": -158.5,
+      "contrailSize": 9.390052,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-79, 47],
+      "length": 27.644289,
+      "width": 9.390052,
+      "angle": 158.5,
+      "contrailSize": 9.390052,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-78, -52],
+      "length": 21.59627,
+      "width": 7.443438,
+      "angle": -155,
+      "contrailSize": 7.443438,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-78, 52],
+      "length": 21.59627,
+      "width": 7.443438,
+      "angle": 155,
+      "contrailSize": 7.443438,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-78, -63],
+      "length": 46.803844,
+      "width": 17.395422,
+      "angle": -154.5,
+      "contrailSize": 17.395422,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-78, 63],
+      "length": 46.803844,
+      "width": 17.395422,
+      "angle": 154.5,
+      "contrailSize": 17.395422,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-66.5, -76.5],
+      "length": 14.403638,
+      "width": 6.4916,
+      "angle": -131,
+      "contrailSize": 6.4916,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-66.5, 76.5],
+      "length": 14.403638,
+      "width": 6.4916,
+      "angle": 131,
+      "contrailSize": 6.4916,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-90, -0],
+      "length": 106,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -92, 11,
+    -113, 19.5,
+    -110.5, 29.5,
+    -85, 35.5,
+    -81, 59,
+    -64, 76.5,
+    -47, 56.5,
+    -22, 49,
+    -5.5, 56,
+    21, 37.5,
+    58.5, 49.5,
+    98, 55,
+    112.5, 22,
+    91.5, 20.5,
+    91.5, -20.5,
+    112.5, -22,
+    98, -55,
+    58.5, -49.5,
+    21, -37.5,
+    -5.5, -56,
+    -22, -49,
+    -47, -56.5,
+    -64, -76.5,
+    -81, -59,
+    -85, -35.5,
+    -110.5, -29.5,
+    -113, -19.5,
+    -92, -11
+  ]
+}

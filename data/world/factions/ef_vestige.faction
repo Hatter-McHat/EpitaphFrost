@@ -45,7 +45,7 @@
 		],
 	},
 	"knownShips":{
-		"tags":[],
+		"tags":["vestige"],
 		"hulls":[
 			"ef_necropolis",
 			"ef_graveyard",

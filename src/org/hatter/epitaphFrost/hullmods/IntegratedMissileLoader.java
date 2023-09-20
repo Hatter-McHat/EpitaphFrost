@@ -9,6 +9,9 @@ import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.loading.WeaponSpecAPI;
 
+import java.awt.*;
+import java.util.EnumSet;
+
 
 public class IntegratedMissileLoader extends BaseHullMod {
     //ef_integrated_missile_loader
@@ -22,6 +25,9 @@ public class IntegratedMissileLoader extends BaseHullMod {
         if(!isSMod(stats)) {
             stats.getFluxDissipation().modifyFlat(id, (-1) * (FLUX_PENALTY) * (MissileOP(stats)));
         }
+    }
+    public void advanceInCombat(ShipAPI ship, float amount) {
+        ship.setWeaponGlow(0.5f, Color.GREEN, EnumSet.of(WeaponAPI.WeaponType.MISSILE));
     }
 
     private int MissileOP(MutableShipStatsAPI stats) {

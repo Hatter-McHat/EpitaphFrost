@@ -11,6 +11,8 @@ import com.fs.starfarer.api.characters.MutableCharacterStatsAPI;
 import com.fs.starfarer.api.loading.WeaponSpecAPI;
 import com.fs.starfarer.api.loading.ProjectileWeaponSpecAPI;
 
+import java.awt.*;
+import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -37,6 +39,7 @@ public class OverdrivenBallisticFeeder extends BaseHullMod {
 			stats.getRecoilDecayMult().modifyMult(id, 1 / RECOIL_PENALTY);
 			stats.getMaxRecoilMult().modifyMult(id, RECOIL_MAX_MULT);
 		}
+
 		/*
 		for (String slotId : stats.getVariant().getFittedWeaponSlots()) {
 			WeaponSpecAPI weaponSpec = stats.getVariant().getWeaponSpec(slotId);
@@ -56,6 +59,9 @@ public class OverdrivenBallisticFeeder extends BaseHullMod {
 			}
 		}
 		*/
+	}
+	public void advanceInCombat(ShipAPI ship, float amount) {
+		ship.setWeaponGlow(0.15f, Color.ORANGE, EnumSet.of(WeaponAPI.WeaponType.BALLISTIC));
 	}
 	//following courtesy of Tomatopaste, DarkRevenant. See EF_OEM
 	private static final Map<WeaponAPI.WeaponSize, Integer> BALLISTIC_PENALTIES = new HashMap<WeaponAPI.WeaponSize, Integer>();

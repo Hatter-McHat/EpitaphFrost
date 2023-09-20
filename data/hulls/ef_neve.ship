@@ -1,0 +1,142 @@
+{
+  "hullName": "Névé",
+  "hullId": "ef_neve",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/EpitaphFrost/ships/ef_neve.png",
+  "style": "VERGLAS",
+  "height": 65,
+  "width": 104,
+  "center": [52, 33],
+  "collisionRadius": 58,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 56.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ef_verglas_architecture",
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [20, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -52,
+      "locations": [-12, -33]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 52,
+      "locations": [-12, 33]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [11, -30]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [11, 30]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [-12, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-29.5, -27],
+      "length": 28.209944,
+      "width": 6.541887,
+      "angle": 148,
+      "contrailSize": 6.541887,
+      "style": "VERGLAS"
+    },
+    {
+      "location": [-29.5, 27],
+      "length": 28.209944,
+      "width": 6.541887,
+      "angle": -148,
+      "contrailSize": 6.541887,
+      "style": "VERGLAS"
+    },
+    {
+      "location": [-29, -17.5],
+      "length": 18.855253,
+      "width": 6.551166,
+      "angle": 148.5,
+      "contrailSize": 6.551166,
+      "style": "VERGLAS"
+    },
+    {
+      "location": [-29, 17.5],
+      "length": 18.855253,
+      "width": 6.551166,
+      "angle": -148.5,
+      "contrailSize": 6.551166,
+      "style": "VERGLAS"
+    },
+    {
+      "location": [-25, -6.5],
+      "length": 15.746063,
+      "width": 4.271535,
+      "angle": 170,
+      "contrailSize": 4.271535,
+      "style": "VERGLAS"
+    },
+    {
+      "location": [-25, 6.5],
+      "length": 15.746063,
+      "width": 4.271535,
+      "angle": -170,
+      "contrailSize": 4.271535,
+      "style": "VERGLAS"
+    }
+  ],
+  "bounds": [
+    -25.5, 13,
+    -30.5, 31,
+    -8.5, 52,
+    -7, 44,
+    3.5, 49,
+    22, 38,
+    21.5, 20.5,
+    28.5, 15.5,
+    28.5, -15.5,
+    21.5, -20.5,
+    22, -38,
+    3.5, -49,
+    -7, -44,
+    -8.5, -52,
+    -30.5, -31,
+    -25.5, -13
+  ]
+}

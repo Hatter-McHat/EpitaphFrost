@@ -46,16 +46,16 @@
 		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_lowtech_heavy.png",
 	},
 	"VERGLAS":{
-		"hyperspaceJitterColor":[140,255,255,255],
+		"hyperspaceJitterColor":[0,255,255,255],
 		"baseCampaignExplosionColor":[255,125,25,255],
-		"baseCombatExplosionColor":[140,255,255,255], # smooth flash
+		"baseCombatExplosionColor":[0,255,255,255], # smooth flash
 		"combatExplosionNonFlashColorOverride":[255,165,100,255], # the more billowy explosion
 		"fighterRepairFlickerColor":[255,125,25,255],
 		"fighterChipIconColor":[255,200,150,255],
 		"weaponDisabledExplosionColor":[255,125,25,255],
 		"shieldRingColor":[255,255,255,255],
-		"shieldInnerColor":[140,255,255,135],
-		"fluxVentCoreColor":[140,255,255,255],
+		"shieldInnerColor":[0,255,255,40],
+		"fluxVentCoreColor":[255,255,255,255],
 		"fluxVentFringeColor":[0,0,255,255],
 		"fluxVentTextureSheet":"graphics/fx/nebula_colorless.png", # optional, this is the default value
 		"fluxVentRadialTexture":"graphics/fx/radial_fx.png", # optional, this is the default value
@@ -76,12 +76,12 @@
 		"coversMatchShipBrightness":true,
 		
 		#"colorShiftCovers":false,
-		"slotCoverSmallTurret":"graphics/weapons/covers/cover_omega_turret_small.png",
-		"slotCoverSmallHardpoint":"graphics/weapons/covers/cover_omega_hardpoint_small.png",
-		"slotCoverMediumTurret":"graphics/weapons/covers/cover_omega_turret_medium.png",
-		"slotCoverMediumHardpoint":"graphics/weapons/covers/cover_omega_hardpoint_medium.png",
-		"slotCoverLargeTurret":"graphics/weapons/covers/cover_omega_turret_large.png",
-		"slotCoverLargeHardpoint":"graphics/weapons/covers/cover_omega_hardpoint_large.png",
+		"slotCoverSmallTurret":"graphics/weapons/covers/cover_turret_hightech_small.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/covers/cover_hardpoint_hightech_small.png",
+		"slotCoverMediumTurret":"graphics/weapons/covers/cover_turret_hightech_medium.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/covers/cover_hardpoint_hightech_medium.png",
+		"slotCoverLargeTurret":"graphics/weapons/covers/cover_turret_hightech_large.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/covers/cover_hardpoint_hightech_large.png",
 
 		"dHullOverlayLight":"graphics/damage/dmod_overlay_lowtech_light.png",
 		"dHullOverlayMedium":"graphics/damage/dmod_overlay_lowtech_medium.png",

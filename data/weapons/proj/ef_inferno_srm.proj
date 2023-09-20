@@ -9,8 +9,9 @@
 	"center":[7,9],
 	"collisionRadius":8,
 	"collisionClass":"MISSILE_NO_FF",
+	#"onHitEffect":"org.hatter.epitaphFrost.weapons.proj.Inferno_OnHit",
 	"explosionColor":[255,55,100,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":375, # purely visual
+	"explosionRadius":75, # purely visual
 	#"alwaysAccelerate":true,
 	"reduceDamageWhileFading":true,
 	#"noCollisionWhileFading":true,
@@ -22,11 +23,11 @@
 	"noEngineGlowTime":0.5,
 	"fadeTime":0.5,
 	"glowColor":[255,100,155,85],
-	"glowRadius":90,
+	"glowRadius":15,
 	"engineSpec":{"turnAcc":150,
 				  "turnRate":250,
-				  "acc":50,
-				  "dec":50},
+				  "acc":70,
+				  "dec":30},
 	"engineSlots":[{"id":"ES1",
 					#"loc":[-7, 0],
 					"loc":[0, 0],
@@ -34,7 +35,7 @@
 					"styleSpec":{
 						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
 						"engineColor":[150,100,255,0],
-						"glowSizeMult":1.5,
+						"glowSizeMult":0.5,
 						"glowAlternateColor":[255,100,155,255],
 						"contrailDuration":3,
 						"contrailWidthMult":1,

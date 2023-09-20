@@ -98,7 +98,7 @@ public class HybridSynchronizer extends BaseHullMod {
         for (String slotId : ship.getVariant().getFittedWeaponSlots()) {
             WeaponSpecAPI weaponSpec = ship.getVariant().getWeaponSpec(slotId);
             WeaponSlotAPI weaponSlot = ship.getVariant().getSlot(slotId);
-            if (weaponSpec.getMountType()  == WeaponAPI.WeaponType.BALLISTIC || weaponSlot.getWeaponType() == WeaponAPI.WeaponType.BALLISTIC) {
+            if (weaponSpec.getMountType()  == WeaponAPI.WeaponType.BALLISTIC || weaponSlot.getWeaponType() == WeaponAPI.WeaponType.BALLISTIC && !weaponSlot.isBuiltIn()) {
                 ballistic_op_subtotal += weaponSpec.getOrdnancePointCost(stats, ship.getMutableStats());
 
             }
@@ -123,7 +123,7 @@ public class HybridSynchronizer extends BaseHullMod {
         for (String slotId : ship.getVariant().getFittedWeaponSlots()) {
             WeaponSpecAPI weaponSpec = ship.getVariant().getWeaponSpec(slotId);
             WeaponSlotAPI weaponSlot = ship.getVariant().getSlot(slotId);
-            if (weaponSpec.getMountType() == WeaponAPI.WeaponType.ENERGY || weaponSlot.getWeaponType() == WeaponAPI.WeaponType.ENERGY) {
+            if (weaponSpec.getMountType() == WeaponAPI.WeaponType.ENERGY || weaponSlot.getWeaponType() == WeaponAPI.WeaponType.ENERGY && !weaponSlot.isBuiltIn()) {
                 energy_op_subtotal += weaponSpec.getOrdnancePointCost(stats, ship.getMutableStats());
 
             }

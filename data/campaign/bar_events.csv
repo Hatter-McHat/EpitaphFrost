@@ -1,0 +1,3 @@
+bar event id,tags,freq,prob,min dur,max dur,min timeout,max timeout,min accepted timeout,max accepted timeout,plugin
+vestigeBar,,30,1,30,40,15,20,60,90,org.hatter.epitaphFrost.campaign.bar.VestigeGateBarEvent
+verglasBar,,30,1,30,40,15,20,60,90,org.hatter.epitaphFrost.campaign.bar.VerglasGateBarEvent

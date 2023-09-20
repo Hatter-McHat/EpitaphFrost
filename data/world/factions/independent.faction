@@ -10,6 +10,7 @@
 	"knownShips":{
 		"hulls":[
 			#"ef_quest",
+			"ef_borealis",
 		],
 	},
 },	

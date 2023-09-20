@@ -11,7 +11,7 @@
 	  "hardpointGlowSprite": "graphics/EpitaphFrost/weapons/ef_solar_lance_hardpoint_glow.png",
 	"turretOffsets":[-1, 0],
 	"turretAngleOffsets":[0],
-	"hardpointOffsets":[10, 0],
+	"hardpointOffsets":[5, 0],
 	"hardpointAngleOffsets":[0],
 
 

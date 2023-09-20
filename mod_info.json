@@ -1,25 +1,35 @@
 {
 	"id":"epitaphfrost",
-	"name":"Epitaph Frost",
+	"name":"S Epitaph Frost",
     "utility": "false",
 	"author":"Hatter",
 	"version":{ "major": 0, "minor": 3, "patch": 0 },
 	"description":"Content Expansion",
 	"gameVersion":"0.96a-RC10",
 	"jars": ["jars/EpitaphFrost.jar"],
+	"modPlugin":"org.hatter.epitaphFrost.EFModPlugin",
 	"dependencies": [
         {
             "id": "lw_lazylib",
             "name": "LazyLib"
         },
 		{
+			"id": "shaderLib",
+			"name": "GraphicsLib"
+		},
+		{
 			"id": "MagicLib",
             "name": "MagicLib"
+		},
+		{
+			"id": "lunalib",
+			"name": "LunaLib"
 		}
 	]
 }
 //Thanks to DarkRevenant for code snippets.
 //Tomatopaste and ruddythegreat for troubleshooting,
 //SirHartley for armor regen code.
-//On-hit effect is copied from BadDragn's Apex.
+//On-hit effect and Electroflak visual is copied from TheDragn's Apex.
 //Aero for helping standardize
+//Lukas04 for campaign stuff

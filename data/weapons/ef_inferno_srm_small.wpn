@@ -1,5 +1,5 @@
 {
-	"id":"ef_inferno_srm",
+	"id":"ef_inferno_srm_small",
 	"specClass":"projectile",
 	"type":"MISSILE",
 	"size":"SMALL",
@@ -7,7 +7,7 @@
 	"turretSprite":"graphics/EpitaphFrost/weapons/ef_inferno_srm_small_turret.png",
 	"hardpointSprite":"graphics/EpitaphFrost/weapons/ef_inferno_srm_small_hardpoint.png",	
 	"hardpointOffsets":[10, -0.5],
-	"turretOffsets":[6, -0.5],
+	"turretOffsets":[1, -0.5],
 	"hardpointAngleOffsets":[0],
 	"turretAngleOffsets":[0],
 	"renderHints":[RENDER_LOADED_MISSILES],

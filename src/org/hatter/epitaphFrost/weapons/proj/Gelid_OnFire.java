@@ -30,32 +30,45 @@ public class Gelid_OnFire implements OnFireEffectPlugin {
         float emp = projectile.getEmpAmount();
         float dam = projectile.getDamageAmount();
 
+        float sizeFactor =  ((float)projectile.getDamageAmount() / 250f);
+
         CombatEntityAPI target = findTarget(projectile, weapon, engine);
-        float thickness = 80f;
+        float thickness = (float) (80f * Math.pow(sizeFactor, 0.5f));
         float coreWidthMult = 0.67f;
         Color color = weapon.getSpec().getGlowColor();
-        if (target != null) {
-            EmpArcEntityAPI arc = engine.spawnEmpArc(projectile.getSource(), projectile.getLocation(), weapon.getShip(),
-                    target,
-                    DamageType.ENERGY,
-                    dam,
-                    emp, // emp
-                    100000f, // max range
-                    "shock_repeater_emp_impact",
-                    thickness, // thickness
-                    color,
-                    new Color(255,255,255,255)
-            );
-            arc.setCoreWidthOverride(thickness * coreWidthMult);
-            arc.setSingleFlickerMode();
-        } else {
-            Vector2f from = new Vector2f(projectile.getLocation());
-            Vector2f to = pickNoTargetDest(projectile, weapon, engine);
-            EmpArcEntityAPI arc = engine.spawnEmpArcVisual(from, weapon.getShip(), to, weapon.getShip(), thickness, color, Color.white);
-            arc.setCoreWidthOverride(thickness * coreWidthMult);
-            arc.setSingleFlickerMode();
-            //Global.getSoundPlayer().playSound("shock_repeater_emp_impact", 1f, 1f, to, new Vector2f());
+        Color arcColor = color.WHITE;
+        if(projectile.getDamageType() == DamageType.FRAGMENTATION) {
+            arcColor = color.CYAN;
         }
+            if (target != null) {
+                //change over to Frag
+                EmpArcEntityAPI arc = engine.spawnEmpArc(projectile.getSource(), projectile.getLocation(), weapon.getShip(),
+                        target,
+                        DamageType.FRAGMENTATION,
+                        dam,
+                        emp, // emp
+                        100000f, // max range
+                        "shock_repeater_emp_impact",
+                        thickness, // thickness
+                        color,
+                        arcColor
+                );
+                arc.setCoreWidthOverride(thickness * coreWidthMult);
+                arc.setSingleFlickerMode();
+            } else {
+                Vector2f from = new Vector2f(projectile.getLocation());
+                Vector2f to = pickNoTargetDest(projectile, weapon, engine);
+                EmpArcEntityAPI arc = engine.spawnEmpArcVisual(from, weapon.getShip(), to, weapon.getShip(), thickness, color, arcColor);
+                arc.setCoreWidthOverride(thickness * coreWidthMult);
+                arc.setSingleFlickerMode();
+                //Global.getSoundPlayer().playSound("shock_repeater_emp_impact", 1f, 1f, to, new Vector2f());
+            }
+        //for 'muzzle flash'. Doesn't work that good.
+        Vector2f here = new Vector2f(projectile.getLocation());
+        EmpArcEntityAPI arcTwo = engine.spawnEmpArcVisual(here, weapon.getShip(), here, weapon.getShip(), thickness, color, arcColor);
+        arcTwo.setCoreWidthOverride(thickness * coreWidthMult);
+        arcTwo.setSingleFlickerMode();
+
     }
 
     public Vector2f pickNoTargetDest(DamagingProjectileAPI projectile, WeaponAPI weapon, CombatEngineAPI engine) {
