@@ -1,0 +1,47 @@
+{
+  "variantId": "ef_neve_Armorbreaker",
+  "hullId": "ef_neve",
+  "displayName": "Armorbreaker",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ef_inferno_srm_medium",
+        "WS0005": "ef_inferno_srm_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ef_gravbreaker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ef_gelid_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ef_gelid_pd",
+        "WS0003": "ef_gelid_pd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

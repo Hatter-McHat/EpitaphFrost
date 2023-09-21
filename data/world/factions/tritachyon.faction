@@ -1,0 +1,16 @@
+{
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			#"ef_quest":2,
+		},
+	},
+	"knownShips":{
+		"hulls":[
+			#"ef_quest",
+			"ef_borealis",
+		],
+	},
+},	
