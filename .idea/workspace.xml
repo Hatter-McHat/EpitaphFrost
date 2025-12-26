@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="EpitaphFrost" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97a6a9e1-d1c4-451d-93f5-56b87440abf8" name="Changes" comment="trimmed down half-baked stuff, needs more time in the oven" />
+    <list default="true" id="97a6a9e1-d1c4-451d-93f5-56b87440abf8" name="Changes" comment="trimmed down half-baked stuff, needs more time in the oven">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +83,7 @@
       <workItem from="1766293788970" duration="19000" />
       <workItem from="1766763985858" duration="235000" />
       <workItem from="1766766732272" duration="623000" />
-      <workItem from="1766774590316" duration="557000" />
+      <workItem from="1766774590316" duration="1819000" />
     </task>
     <task id="LOCAL-00001" summary="trimmed down half-baked stuff, needs more time in the oven">
       <option name="closed" value="true" />
@@ -86,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766764196993</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="trimmed down half-baked stuff, needs more time in the oven">
+      <option name="closed" value="true" />
+      <created>1766775185417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766775185417</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
