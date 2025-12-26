@@ -1,0 +1,73 @@
+{
+  "variantId": "ef_khepri_variant",
+  "hullId": "ef_khepri",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 47,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "pointdefenseai",
+    "magazines",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "autopulse",
+        "WS0002": "autopulse",
+        "WS0003": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "tachyonlance",
+        "WS0005": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sabotpod",
+        "WS0010": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "guardian",
+        "WS0013": "pdburst",
+        "WS0014": "pdburst",
+        "WS0015": "pdburst",
+        "WS0016": "pdburst",
+        "WS0017": "pdburst",
+        "WS0018": "pdburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "taclaser",
+        "WS0008": "taclaser",
+        "WS0011": "irautolance",
+        "WS0012": "irautolance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

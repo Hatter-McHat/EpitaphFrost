@@ -1,9 +1,9 @@
 {
 	"id":"epitaphfrost",
-	"name":"S Epitaph Frost",
+	"name":"Epitaph Frost",
     "utility": "false",
 	"author":"Hatter",
-	"version":{ "major": 0, "minor": 3, "patch": 0 },
+	"version":{ "major": 1, "minor": 3, "patch": 1 },
 	"description":"Content Expansion",
 	"gameVersion":"0.96a-RC10",
 	"jars": ["jars/EpitaphFrost.jar"],
@@ -33,3 +33,4 @@
 //On-hit effect and Electroflak visual is copied from TheDragn's Apex.
 //Aero for helping standardize
 //Lukas04 for campaign stuff
+//Tarfilette for bubble system

@@ -1,0 +1,116 @@
+{
+  "hullName": "Stheno",
+  "hullId": "ef_stheno",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/EpitaphFrost/ships/ef_stheno.png",
+  "style": "HIGH_TECH",
+  "height": 168,
+  "width": 97,
+  "center": [48.5, 84],
+  "collisionRadius": 107,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 103.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "escort_package",
+    "missile_autoloader"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 257,
+      "angle": 17,
+      "locations": [44, 14.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -29.5,
+      "locations": [-38, -22.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 132,
+      "angle": -38.5,
+      "locations": [18, -35.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [51, -25.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 151,
+      "angle": 56.5,
+      "locations": [-30, 33.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-81.5, -11.5],
+      "length": 41,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-76.5, 11.5],
+      "length": 41,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-73.5, 24.5],
+      "length": 35.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    82.5, -6,
+    73.5, 30,
+    60.5, 44.5,
+    27, 45,
+    -3.5, 30.5,
+    -19, 48.5,
+    -71, 30.5,
+    -74.5, 6.5,
+    -69, -2.5,
+    -82, -9.5,
+    -80, -28.5,
+    -65.5, -33.5,
+    -60, -46.5,
+    -22.5, -47,
+    -5, -35,
+    11, -45.5,
+    22, -45.5,
+    35.5, -33.5,
+    54.5, -30.5,
+    54.5, -21.5,
+    46, -18.5,
+    67.5, -15,
+    70, -8.5
+  ]
+}
