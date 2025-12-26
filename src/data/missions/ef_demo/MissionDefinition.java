@@ -25,19 +25,11 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		
 		// Set up the player's fleet.
 	    api.addToFleet(FleetSide.PLAYER, "ef_quest_Standard", FleetMemberType.SHIP, "Demo", true);
-	    api.addToFleet(FleetSide.PLAYER, "ef_victus_Outdated", FleetMemberType.SHIP, "Demo", false);
 	    api.addToFleet(FleetSide.PLAYER, "ef_borealis_Standard", FleetMemberType.SHIP, "Demo", false);
 	    api.addToFleet(FleetSide.PLAYER, "ef_reinforcer_Standard", FleetMemberType.SHIP, "Demo", false);
 	    api.addToFleet(FleetSide.PLAYER, "ef_fluorescence_Attack", FleetMemberType.SHIP, "Demo", false);
-		api.addToFleet(FleetSide.PLAYER, "ef_necropolis_Standard", FleetMemberType.SHIP, "Demo", false);
-		api.addToFleet(FleetSide.PLAYER, "ef_graveyard_Standard", FleetMemberType.SHIP, "Demo", false);
-		api.addToFleet(FleetSide.PLAYER, "ef_crypt_Standard", FleetMemberType.SHIP, "Demo", false);
-	    api.addToFleet(FleetSide.PLAYER, "ef_sepulchre_Defence", FleetMemberType.SHIP, "Demo", false);
-	    api.addToFleet(FleetSide.PLAYER, "ef_tombstone_Standard", FleetMemberType.SHIP, "Demo", false);
-	    api.addToFleet(FleetSide.PLAYER, "ef_floe_Attack", FleetMemberType.SHIP, "Demo", false);
-	    api.addToFleet(FleetSide.PLAYER, "ef_lamina_Attack", FleetMemberType.SHIP, "Demo", false);
-	    api.addToFleet(FleetSide.PLAYER, "ef_glaciator_Shieldbreaker", FleetMemberType.SHIP, "Demo", false);
-	    api.addToFleet(FleetSide.PLAYER, "ef_neve_Armorbreaker", FleetMemberType.SHIP, "Demo", false);
+	    api.addToFleet(FleetSide.PLAYER, "ef_khepri_Standard", FleetMemberType.SHIP, "Demo", false);
+	    api.addToFleet(FleetSide.PLAYER, "ef_stheno_Defense", FleetMemberType.SHIP, "Demo", false);
 		// Set up the enemy fleet.
 		api.addToFleet(FleetSide.ENEMY, "kite_Standard", FleetMemberType.SHIP, "Hapless Bystander", false);
 		

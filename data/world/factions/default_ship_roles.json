@@ -4,34 +4,19 @@
 	"combatSmallForSmallFleet":{
 	},
 	"combatSmall":{
-		"ef_floe_Attack":10,
-		"ef_lamina_Attack":10,
-		
 	},
-	"combatMedium":{
-		"ef_tombstone_Standard":0.3,
-		"ef_tombstone_Defence":0.3,
-		"ef_crypt_Standard":0.5,
-		"ef_crypt_Defence":0.5,
-		"ef_sepulchre_Attack":0.5,
-		"ef_sepulchre_Defence":0.5,
-		"ef_glaciator_Shieldbreaker":10,
-
-		
+	"combatMedium":{	
+		"ef_stheno_Defense":10,
+		"ef_stheno_Attack":10,
 	},
 	"combatLarge":{
 		"ef_fluorescence_Attack":7,
-		"ef_graveyard_Standard":1,
-		"ef_graveyard_Armorbreaker":0.5,
 		"ef_reinforcer_Standard":10,
 		"ef_reinforcer_Overdriven":10,
 		"ef_borealis_Standard":0.3,
-		"ef_neve_Armorbreaker":5
 	},
 	"combatCapital":{
 		"ef_quest_Standard":5, 
-		"ef_necropolis_Standard":0.4,
-		"ef_necropolis_Shieldbreaker":0.4,
-		"ef_necropolis_Attack":0.4,
+		"ef_khepri_Standard":1,
 	},
 }

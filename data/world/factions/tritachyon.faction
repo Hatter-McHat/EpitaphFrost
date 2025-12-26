@@ -10,7 +10,9 @@
 	"knownShips":{
 		"hulls":[
 			#"ef_quest",
+			"ef_stheno",
 			"ef_borealis",
+			"ef_khepri",
 		],
 	},
 },	

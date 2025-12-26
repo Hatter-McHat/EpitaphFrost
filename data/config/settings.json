@@ -1,19 +1,19 @@
 { 	
 	"plugins":{
-		"newGameSectorProcGen":"org.hatter.epitaphFrost.campaign.procgen.EFSectorProcGen",
+		#"newGameSectorProcGen":"org.hatter.epitaphFrost.campaign.procgen.EFSectorProcGen",
 	},	
 	"designTypeColors":{
-		"Vestige":[72,255,78,255],
-		"Verglas":[140,255,255,255],
+		#"Vestige":[72,255,78,255],
+		#"Verglas":[140,255,255,255],
 	},
 	"graphics":{
 		"fx":{
 			"ef_trail_bright":"graphics/EpitaphFrost/trails/base_trail_bright.png",
-			"ef_SKR_hueShift":"graphics/EpitaphFrost/fx/ef_SKR_hueShift.png",
+			#"ef_SKR_hueShift":"graphics/EpitaphFrost/fx/ef_SKR_hueShift.png",
 		},
 		"blueprint_packages":{
-			"ef_vestige_package":"graphics/EpitaphFrost/icons/misc/ef_vestige_package.png",
-			"ef_verglas_package":"graphics/EpitaphFrost/icons/misc/ef_verglas_package.png",
+			#"ef_vestige_package":"graphics/EpitaphFrost/icons/misc/ef_vestige_package.png",
+			#"ef_verglas_package":"graphics/EpitaphFrost/icons/misc/ef_verglas_package.png",
 		},
 	}
 }
