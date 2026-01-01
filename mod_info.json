@@ -1,31 +1,13 @@
 {
 	"id":"epitaphfrost",
 	"name":"Epitaph Frost",
-    "utility": "false",
+    "utility": false,
 	"author":"Hatter",
-	"version":{ "major": 1, "minor": 3, "patch": 1 },
-	"description":"Content Expansion",
-	"gameVersion":"0.96a-RC10",
+	"version":{ "major": 2, "minor": 0, "patch": 0 },
+	"description":"Content Expansion, adds hullmods and ships",
+	"gameVersion":"0.98a-RC5",
 	"jars": ["jars/EpitaphFrost.jar"],
-	"modPlugin":"org.hatter.epitaphFrost.EFModPlugin",
-	"dependencies": [
-        {
-            "id": "lw_lazylib",
-            "name": "LazyLib"
-        },
-		{
-			"id": "shaderLib",
-			"name": "GraphicsLib"
-		},
-		{
-			"id": "MagicLib",
-            "name": "MagicLib"
-		},
-		{
-			"id": "lunalib",
-			"name": "LunaLib"
-		}
-	]
+	
 }
 //Thanks to DarkRevenant for code snippets.
 //Tomatopaste and ruddythegreat for troubleshooting,

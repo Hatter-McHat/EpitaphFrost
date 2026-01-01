@@ -1,15 +1,15 @@
 {
   "hullName": "Khepri",
   "hullId": "ef_khepri",
-  "hullSize": "CAPITAL",
+  "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/EpitaphFrost/ships/ef_khepri.png",
   "style": "HIGH_TECH",
   "height": 404,
   "width": 254,
   "center": [127, 193],
-  "collisionRadius": 243,
+  "collisionRadius": 255,
   "shieldCenter": [0, -0],
-  "shieldRadius": 239.5,
+  "shieldRadius": 255.5,
   "viewOffset": 0,
   "builtInMods": [
     "delicate",

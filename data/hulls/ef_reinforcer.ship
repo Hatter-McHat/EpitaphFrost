@@ -8,8 +8,8 @@
   "width": 238,
   "center": [119, 74],
   "collisionRadius": 147,
-  "shieldCenter": [-6, -0],
-  "shieldRadius": 138,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 142.5,
   "viewOffset": 0,
   "builtInMods": [
     "ef_auxiliary_turbines"
