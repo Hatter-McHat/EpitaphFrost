@@ -1,8 +1,6 @@
 id,type,text1,text2,text3,notes
-# Ships,,,,,
-ef_quest,SHIP,"A design made to supplant the aging Conquest-class battlecruiser, sharing the mobility, weak shields and armor of the Conquest but providing all of the firepower, at the same price as a Conquest. The Domain Naval Bureau asking 'How is this different from a Conquest?' and subsequent lack of answer led to the resignation of multiple admirals.
-
-The League found the blueprints in a ruined world. They function as an alternative to the Conquest due to their ability to mount a large energy weapon. They became produced following the League's Mjolnr Procurement Fiasco of '05, which saw the Mjolnr Cannon as both their only meaningful ballistic weapon and their only primary armament for Conquests. ",,,
+# Ships,,"The Quest class battleship provides extremely heavy firepower at range, held back by a relatively fragile shield.",,,
+ef_quest,SHIP,The Quest class battleship was built to partner with the Pegasus' ,,,
 ef_fluorescence,SHIP,"A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. At least that is how the official histories tell it. The Fluorescent-class light cruiser acts as a skirmishing element, supporting the heavier Brilliant classes. 
 
 ",,,
@@ -15,5 +13,3 @@ ef_khepri,SHIP,"Spawned from the same black pit as the Anubis-class, the white-e
 ef_corpreducer,WEAPON,"""The beam appears unable to condense even at dramatically increased power and still causes...""",- Internal Memo,,
 ef_corpreducer_medium,WEAPON,""" ... greater strain on the firing ship's flux grid than the recieving one, and is outperformed by the Sabot KE-PEN missile.""",- Internal Memo,,
 ef_corpreducer_small,WEAPON,"""... no lasting interference on the shield generator. Project Kazoo is cancelled, the prototype resulted in...""",- Internal Memo,,
-,,,,,
-ef_solar_lance,WEAPON,"""... extensive thermal damage, multiple systems ...""",- Damage Report,,
